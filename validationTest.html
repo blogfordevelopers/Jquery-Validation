@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" prefix="og: http://ogp.me/ns#">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+<title>Validation makes easy with Jquery</title>
+<style>
+.textbox{
+	height:20px;
+	width:350px;	
+}
+
+.error{
+background-color:#FFDFDF;
+border:1px #F00 solid;
+}
+body{font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+}
+
+</style>
+
+<script type='text/javascript' src='jquery.js'></script>
+<script type="text/javascript" src="jquery.validate.js"></script>
+
+<script> jQuery(document).ready(function(){						
+           jQuery("#reg_form_site").validate();}); </script> 
+           
+   <div style="margin:50px;">   
+         <h1> Jquery validation makes easy to use</h1>    
+         Today everybody is using Jquery form validation. Some times the textbox id becomes dynamic. Then this code example is helpful to developers. This validation is calling by CSS calss. So, we do not need to call the Textbox ID. <br><br><br> 
+        <a href="http://blogfordeveloper.com/">Author: http://blogfordeveloper.com </a>
+    
+        <br clear="all"><br clear="all">      
+      
+              
+            <form id="reg_form_site" name="reg_form_site" method="post" action=""><table width="90%"> 
+             <tr> <td width="20%"> Website Name: &nbsp; </td> <td> 
+             <input type="text" name="site_name" id="site_name" class="textbox required url" placeholder="Enter website name Eg.www.blogfordeveloper.com" value=""> </td></tr>
+             <tr> <td> Organization: </td> <td>
+             <input type="text" name="organization" id="organization" class="textbox required" placeholder="Enter your organization" value=""> </td></tr>			 
+             <tr> <td> Email Address: </td> <td>
+             <input type="text" name="email1" id="email1" class="textbox required email" placeholder="Enter your email address" value=""> </td></tr>
+             <tr> <td> Contact Name: </td> <td>
+             <input type="text" name="name1" id="name1" class="textbox required" placeholder="Enter your name" value=""> </td></tr>
+             
+             <tr> <td colspan=2> <input type="submit" value="Submit" name="sub_con" id="sub_con" class="contact_submit"></td></tr></table></form>
+           
+               <br clear="all"> <br clear="all"> 
+               
+              <a href='http://www.blogfordeveloper.com/jquery-validation'> View More...</a>
+               
+            <br clear="all"> <br clear="all"> <br clear="all">
+        <h4> Work's at </h4> &nbsp; <img src="http://www.blogfordeveloper.com/wp-content/uploads/2013/09/supportBrowser.png">    
+
+
+</div>
+
+
+</body>
+</html>
